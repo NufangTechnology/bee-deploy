@@ -1,0 +1,10 @@
+.*
+!.gitignore
+.idea/
+*.log
+nbproject/
+.htaccess
+vendor/
+composer.phar
+!.phalcon.php
+Vagrantfile

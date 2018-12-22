@@ -1,0 +1,28 @@
+{
+    "name": "bee-framework/deploy",
+    "description": "Bee框架部署组件",
+    "type": "library",
+    "authors": [
+        {
+            "name": "南山吴彦祖",
+            "email": "anoxia@engineer.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "adhocore/cli": "^0.3.2",
+        "bee-framework/util": "^1.0",
+        "guzzlehttp/guzzle": "^6.3",
+      "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bee\\Deploy\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bee\\Deploy\\Tests\\": "tests/"
+        }
+    }
+}
